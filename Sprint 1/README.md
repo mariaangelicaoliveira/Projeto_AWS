@@ -16,14 +16,14 @@
 Ao executar o código do exercício ... observei que ... conforme podemos ver na imagem a seguir:
 
 
-![Evidencia 1](evidencias/sample.webp)
+<!-- ![Evidencia 1](evidencias/'nome'.webp) -->
 
 
 
 # Certificados
 
 
-- Certificado do Curso ABC
+- Certificado do Curso Linux para Desenvolvedores
 ![Curso Linux para Desenvolvedores](certificados/cursoLinux.png)
 
 
