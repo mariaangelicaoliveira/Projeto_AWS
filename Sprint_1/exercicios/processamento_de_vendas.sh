@@ -1,11 +1,11 @@
 #1
-mkdir -p vendas
-cp ecommerce/* vendas
+mkdir /home/ang/MariaAngelica_DA/Sprint_1/exercicios/vendas
+cp /home/ang/MariaAngelica_DA/Sprint_1/exercicios/ecommerce/* /home/ang/MariaAngelica_DA/Sprint_1/exercicios/vendas
 #2
-cd vendas
-mkdir -p backup
+cd /home/ang/MariaAngelica_DA/Sprint_1/exercicios/vendas
+mkdir /home/ang/MariaAngelica_DA/Sprint_1/exercicios/vendas/backup
 cp dados_de_vendas.csv backup/
-cd backup
+cd /home/ang/MariaAngelica_DA/Sprint_1/exercicios/vendas/backup
 mv dados_de_vendas.csv dados-"$(date +'%Y%m%d')".csv
 #3
 mv dados-"$(date +'%Y%m%d')".csv backup-dados-"$(date +'%Y%m%d')".csv
