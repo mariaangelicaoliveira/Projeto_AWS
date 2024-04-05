@@ -10,20 +10,20 @@ Meu nome é Maria Angélica Crispim de Oliveira, sou estudante do curso de Ciên
 
 ## Sprints 
 
-1. [Sprint 1 - Em progresso](Sprint%201/README.md)
-2. [Sprint 2](Sprint%202/README.md)
-3. [Sprint 3](Sprint%203/README.md)
-4. [Sprint 4](Sprint%204/README.md)
-5. [Sprint 5](Sprint%205/README.md)
-6. [Sprint 6](Sprint%206/README.md)
-7. [Sprint 7](Sprint%207/README.md)
-8. [Sprint 8](Sprint%208/README.md)
-9. [Sprint 9](Sprint%209/README.md)
-10. [Sprint 10](Sprint%2010/README.md)
+1. [Sprint 1](Sprint_1/README.md)
+2. [Sprint 2](Sprint_2/README.md)
+3. [Sprint 3](Sprint_3/README.md)
+4. [Sprint 4](Sprint_4/README.md)
+5. [Sprint 5](Sprint_5/README.md)
+6. [Sprint 6](Sprint_6/README.md)
+7. [Sprint 7](Sprint_7/README.md)
+8. [Sprint 8](Sprint_8/README.md)
+9. [Sprint 9](Sprint_9/README.md)
+10. [Sprint 10](Sprint_10/README.md)
 
 ## Desafio
 
-1. Desafio [Desafio Final](Desafio/README.md)
+1.[Desafio Final](Desafio/README.md)
 
 
 
