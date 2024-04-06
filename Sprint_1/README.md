@@ -1,7 +1,7 @@
 # Exercícios
 
 1. ...
-[Resposta Ex1.](exercicios/ex1.txt)
+[ex .](exercicios/processamento_de_vendas.sh)
 
 
 2. ...
