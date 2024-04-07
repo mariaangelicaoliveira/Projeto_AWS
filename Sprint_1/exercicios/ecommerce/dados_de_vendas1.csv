@@ -1,0 +1,67 @@
+id,produto,quantidade,preço,data
+1,Calça Jeans,15,69.99,01/01/2023
+2,Panela de Pressão,8,250.00,02/01/2023
+3,Chaleira Elétrica,10,55.00,03/01/2023
+4,Skate,3,199.99,04/01/2023
+5,Camiseta Polo,20,25.00,05/01/2023
+6,Churrasqueira,4,299.00,06/01/2023
+7,Guarda-chuva,7,12.00,07/01/2023
+8,Secador de Cabelo,5,89.90,08/01/2023
+9,Smartwatch,12,199.00,09/01/2023
+10,Notebook,2,1299.00,10/01/2023
+11,Mouse Gamer,9,49.99,11/01/2023
+12,Livro de Receitas,15,20.00,12/01/2023
+13,Óculos de Natação,18,7.50,13/01/2023
+14,Caneta Esferográfica,30,0.50,14/01/2023
+15,Caixa de Lápis de Cor,25,5.00,15/01/2023
+16,Bloco de Notas,10,3.50,16/01/2023
+17,Caneca Térmica,12,8.00,17/01/2023
+18,Almofada Decorativa,8,15.00,18/01/2023
+19,Tapete de Yoga,6,20.00,19/01/2023
+20,Faqueiro de Inox,4,35.00,20/01/2023
+21,Mini Geladeira,5,99.00,21/01/2023
+22,Aspirador de Pó,7,150.00,22/01/2023
+23,Aparelho de Jantar,6,80.00,23/01/2023
+24,Kit de Ferramentas,10,49.99,24/01/2023
+25,Lanterna LED,20,7.99,25/01/2023
+26,Fone de Ouvido Bluetooth,4,39.00,26/01/2023
+27,Relógio Despertador,8,12.99,27/01/2023
+28,Carregador Portátil,2,49.99,28/01/2023
+29,Prancha de Surf,1,299.00,29/01/2023
+30,Kit de Maquiagem,3,29.90,30/01/2023
+31,Estojo de Pincéis,2,69.99,31/01/2023
+32,Escova Rotativa,5,49.90,01/02/2023
+33,Chapinha,4,79.90,02/02/2023
+34,Bolsa Térmica,6,19.99,03/02/2023
+35,Balança de Cozinha,7,29.90,04/02/2023
+36,Mini Liquidificador,2,39.99,05/02/2023
+52,Monitor Gamer,3,599.00,20/02/2023
+53,Teclado Mecânico,4,149.00,21/02/2023
+54,Mousepad Gamer,5,24.90,22/02/2023
+55,Cadeira Gamer,10,349.99,23/02/2023
+56,Porta Copos,20,2.00,24/02/2023
+57,Almofada de Pescoço,6,14.99,25/02/2023
+58,Copo Térmico,8,9.99,26/02/2023
+59,Garrafa de Água,7,7.50,27/02/2023
+60,Cadeira de Praia,9,29.99,28/02/2023
+61,Guarda-sol,12,39.99,01/03/2023
+62,Barraca de Camping,4,149.00,02/03/2023
+63,Lanterna Recarregável,5,19.99,03/03/2023
+64,Cantil,6,12.00,04/03/2023
+65,Rede de Descanso,8,29.99,05/03/2023
+66,Colchão Inflável,2,99.00,06/03/2023
+67,Bússola,4,5.99,07/03/2023
+68,Kit Sobrevivência,10,149.00,08/03/2023
+70,Lanterna de Cabeça,4,29.99,10/03/2023
+71,Bolsa de Hidratação,5,19.99,11/03/2023
+76,Caixa de Ferramentas,2,99.99,16/03/2023
+77,Parafusadeira,3,49.99,17/03/2023
+78,Escada Dobrável,4,79.99,18/03/2023
+79,Kit Churrasco,2,29.99,19/03/2023
+80,Torradeira,3,39.99,20/03/2023
+81,Faca de Chef,6,49.99,21/03/2023
+82,Tábua de Corte,10,19.99,22/03/2023
+83,Kit Cozinha,8,69.99,24/03/2023
+85,Afiador de Facas,2,14.99,25/03/2023
+86,Moedor de Café,3,24.99,27/03/2023
+88,Mini Geladeira,2,99.00,31/01/2023
