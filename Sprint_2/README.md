@@ -1,25 +1,16 @@
-
-# Instruções
-
-Neste arquivo você irá apresentar suas entregas da Sprint corrente. Observe que existem 4 diretórios no exemplo: **exercícios**, **certificados** e **evidências**.
-
- - O diretório **exercícios** corresponde ao local onde você irá adicionar o código-fonte das atividades de codificação da Sprint, quando houver.
- - O diretório **evidências** você pode utilizar para adicionar imagens demonstrando a execução/resultados de atividades, quando necessário.
- - O diretório **certificados** é o local onde você irá armazenar os certificados dos cursos solicitados durante a sprint. O nome de cada certificado de corresponder ao título do curso.
- - O diretório **desafio** é o local onde você irá armazenar a resolução do que se pede no desafio, todos recursos que você considerar importante deverá está dentro desse diretório.
-
-Utilize o arquivo README.md da Sprint para organizar todas as suas entregas. Faça referência aos arquivos de código-fonte. Evite colocar código diretamente no Markdown pois dificulta nossa avaliação.
-
-
 # Exercícios
 
 
-1. ...
-[Resposta Ex1.](exercicios/ex1.txt)
+1. Exercicios 1 ao 16
+
+[Resposta 1 ao 16](Sprint_2\exercicios\Exercicios_Sprint_2.txt)
 
 
-2. ...
-[Resposta Ex2.](exercicios/ex2.txt)
+2. Exercicio Exportacao de Dados
+
+[Exportacao de Dados 1](Sprint_2\exercicios\exportacao_1.csv) 
+
+[Exportacao de Dados 2](Sprint_2\exercicios\exportacao_2.csv)
 
 
 
@@ -27,17 +18,27 @@ Utilize o arquivo README.md da Sprint para organizar todas as suas entregas. Fa�
 # Evidências
 
 
-Ao executar o código do exercício ... observei que ... conforme podemos ver na imagem a seguir:
+Este diagrama representa a estrutura do banco de dados, mostrando como as diferentes tabelas estão relacionadas entre si e como as views fornecem uma visão agregada dos dados. Ele oferece uma visão geral do esquema de banco de dados e das relações entre suas entidades.
 
 
-![Evidencia 1](evidencias/sample.webp)
+![Diagrama](Sprint_2\evidencias\diagrama_sprint2.png)
 
 
 
 # Certificados
 
 
-- Certificado do Curso ABC
-![Curso ABC](certificados/sample.png)
+- Certificado do Curso AWS
+![Curso AWS](Sprint_2\certificados\aws_certificado.png)
+
+
+
+# Desafio
+1. [Explicacao](Sprint_2\Desafio\explicacao_desafio\explicacao.txt)
+
+
+2. [Modelo Relacional](Sprint_2\Desafio\RelacionalScript.sql)
+
+3. [Modelo Dimensional e Views](Sprint_2\Desafio\DimensionalScript.sql)
 
 
