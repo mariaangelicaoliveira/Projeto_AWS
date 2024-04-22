@@ -1,0 +1,62 @@
+No modelo relacional, criei uma relação entre todas as tabelas onde cada tabela não precisa repetir os valores. Por exemplo, na tabela ‘marca’, evito a repetição da marca várias vezes dentro do carro, então criei uma tabela exclusiva para marca e outra para o modelo, permitindo assim referenciar a marca dentro do modelo. Dessa forma, o modelo relacional foca na relação entre as tabelas e na redução da duplicidade de informação, como por exemplo, eliminando a necessidade de salvar a mesma string para cada produto.
+
+Já no modelo dimensional, apenas uma funcionalidade principal é destacada, como a locação. Por exemplo, para a locação de um veículo, acessamos a tabela principal para obter rapidamente outras informações relacionadas. Assim, o modelo dimensional é mais específico. Ele pode ser derivado do modelo relacional, já que este evita a duplicidade das informações e impede o cadastro incorreto de informações duplicadas, como diferentes formas de escrever o nome da marca do veículo. Portanto, o modelo dimensional visa agilizar o processamento e fornecer informações com eficiência, sem se preocupar tanto com duplicidade, sendo assim criado a partir do modelo relacional.
+
+MODELO DIMENCIONAL
+O modelo dimensional é uma técnica de modelagem de banco de dados para facilitar a análise de grandes volumes de dados. Ele consiste em tabelas de fatos e tabelas de dimensão.
+Esse modelo de dados permite análises eficientes sobre as locações de carros, facilitando a compreensão dos padrões de locação, os tipos de clientes, os vendedores envolvidos e os detalhes dos carros alugados.
+
+Tabela de Dimensão Vendedor (tb_vendedor_d):
+Cria uma tabela para armazenar informações sobre os vendedores.
+Tabela de Dimensão Carro (tb_carro_d):
+Cria uma tabela para armazenar informações sobre os carros disponíveis para locação.
+Tabela de Dimensão Cliente (tb_cliente_d):
+Cria uma tabela para armazenar informações sobre os clientes que alugam os carros.
+Tabela de Dimensão Locação (tb_locar_d):
+Cria uma tabela de fatos para armazenar informações sobre as locações de carros.
+
+MODELO RELACIONAL
+Cada tabela é criada com colunas relevantes e chaves que são usadas para estabelecer relações entre as tabelas. Os dados são então inseridos nessas tabelas a partir dos dados disponíveis na tabela de locação.
+
+Tabela Combustível (tb_combustivel):
+Esta tabela armazena os tipos de combustíveis disponíveis.
+
+Tabela Estado (tb_estado) e View Estado (vw_estado):
+A tabela tb_estado armazena informações sobre os estados e seus respectivos países.
+
+Tabela Cidade (tb_cidade):
+Armazena informações sobre as cidades e seus estados associados.
+
+Tabela Vendedor (tb_vendedor):
+Armazena informações sobre os vendedores, incluindo o estado onde trabalham.
+
+Tabela Marca (tb_marca) e Tabela Modelo (tb_modelo):
+tb_marca armazena informações sobre as marcas de carros.
+tb_modelo armazena informações sobre os modelos de carros, referenciando as marcas.
+
+Tabela Carro (tb_carro):
+Armazena informações detalhadas sobre os carros disponíveis para locação, incluindo quilometragem, chassi, ano, tipo de combustível e modelo.
+
+Tabela Cliente (tb_cliente):
+Armazena informações sobre os clientes, incluindo a cidade onde residem.
+
+Tabela Locar (tb_locar):
+Registra as informações de cada locação, incluindo cliente, carro, vendedor, datas e valores.
+
+VIEWS
+Essas views fornecem uma visão agregada dos dados de locação, permitindo análises mais detalhadas sobre os aluguéis de carros, seja por marca, vendedor, número de dias de locação ou estado do cliente.
+View aluguel por marca (vw_aluguel_marca):
+Esta view conta o número de aluguéis por marca de carro.
+O resultado final mostra o número de aluguéis para cada marca de carro.
+View aluguel por Vendedor (vw_aluguel_vendedor):
+Esta view conta o número de aluguéis por vendedor.
+O resultado final mostra o número de aluguéis realizados por cada vendedor.
+View dias alugados (vw_dia_aluguel):
+Esta view conta o número de locações agrupadas pelo número de dias de aluguel.
+O resultado final mostra a quantidade de locações para cada número específico de dias de aluguel.
+View alugueis por estado (vw_aluguel_estado):
+Esta view conta o número de aluguéis por estado do cliente.
+O resultado final mostra o número de aluguéis realizados em cada estado.
+
+
+

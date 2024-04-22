@@ -1,0 +1,159 @@
+###Exercícios###
+
+
+Exercício 01
+select *
+from livro
+where publicacao > '2015-01-01'
+order by cod asc
+------------------------------
+Exercício 02
+select titulo, valor
+from livro
+order by valor desc 
+limit 10
+------------------------------
+Exercício 03
+SELECT count(*) AS quantidade, editora.nome, endereco.estado, endereco.cidade  
+FROM livro
+INNER JOIN editora ON editora.codeditora  == livro.editora
+INNER JOIN endereco ON endereco.codendereco == editora.endereco  
+GROUP BY editora 
+ORDER BY quantidade DESC 
+LIMIT 5
+------------------------------
+Exercício 04
+select autor.nome, autor.codautor, autor.nascimento, count(livro.cod) as quantidade
+from autor
+left join livro on livro.autor == autor.codautor
+group by autor.codautor
+order by autor.nome
+------------------------------
+Exercício 05
+SELECT au.nome  FROM editora AS ed 
+INNER JOIN endereco AS en ON en.codendereco == ed.endereco
+INNER JOIN livro AS li ON li.editora == ed.codeditora
+INNER JOIN autor AS au ON au.codautor  == li.autor
+WHERE en.estado NOT IN ('RIO GRANDE DO SUL', 'PARANÁ', 'SANTA CATARINA')
+GROUP BY au.codautor;
+------------------------------
+Exercício 06
+SELECT au.codautor, au.nome, COUNT(li.cod) AS quantidade_publicacoes FROM autor AS au 
+INNER JOIN livro AS li ON li.autor == au.codautor 
+GROUP BY au.codautor 
+ORDER BY quantidade_publicacoes DESC
+LIMIT 1
+------------------------------
+Exercício 07
+SELECT au.nome  FROM autor AS au 
+LEFT JOIN livro AS li ON li.autor == au.codautor 
+WHERE li.cod IS NULL
+GROUP BY au.codautor 
+ORDER BY au.nome 
+
+------------------------------
+------------------------------
+------------------------------
+
+Exercício 08
+SELECT tbven.cdvdd, tbven.nmvdd FROM tbvendedor AS tbven
+INNER JOIN tbvendas AS tbv ON tbv.cdvdd  == tbven.cdvdd
+WHERE tbv.status LIKE 'Concluído'
+GROUP BY tbven.cdvdd
+ORDER BY COUNT(tbv.cdven) DESC
+LIMIT 1
+------------------------------
+Exercício 09
+SELECT tbven.cdpro, tbven.nmpro FROM tbvendas AS tbven 
+WHERE tbven.status LIKE "Concluído" 
+AND tbven.dtven  BETWEEN '2014-02-03' AND '2018-02-02'
+GROUP BY tbven.cdpro 
+ORDER BY COUNT(tbven.cdpro) DESC
+LIMIT 1
+------------------------------
+Exercício 10
+SELECT tbvdd.nmvdd, SUM((tbven.qtd*tbven.vrunt)) AS valor_total_vendas , ROUND(SUM(((tbven.qtd*tbven.vrunt)*tbvdd.perccomissao/100)),2) AS comissao  FROM tbvendedor AS tbvdd 
+LEFT JOIN tbvendas AS tbven ON tbven.cdvdd == tbvdd.cdvdd 
+WHERE tbven.status LIKE 'Concluído'
+GROUP BY tbvdd.cdvdd 
+ORDER BY comissao DESC
+------------------------------
+Exercício 11
+SELECT cdcli, nmcli, SUM((qtd*vrunt)) AS gasto FROM tbvendas
+WHERE status = 'Concluído'
+GROUP BY cdcli 
+ORDER BY gasto DESC
+LIMIT 1
+------------------------------
+Exercício 12
+SELECT tbdep.cddep, tbdep.nmdep, tbdep.dtnasc,  SUM((qtd*vrunt)) AS valor_total_vendas FROM tbvendas AS tbven
+INNER JOIN tbvendedor AS tbvdd ON tbvdd.cdvdd = tbven.cdvdd
+INNER JOIN tbdependente AS tbdep ON tbdep.cdvdd = tbven.cdvdd
+WHERE status = 'Concluído'
+GROUP BY tbvdd.cdvdd  
+ORDER BY valor_total_vendas
+LIMIT 1
+------------------------------
+Exercício 13
+SELECT tbven.cdpro, tbven.nmcanalvendas, tbven.nmpro, SUM(tbven.qtd) AS quantidade_vendas FROM tbvendas AS tbven
+WHERE tbven.nmcanalvendas IN ("Matriz", "Ecommerce")
+AND tbven.status LIKE "Concluído"
+GROUP BY tbven.cdpro, tbven.nmcanalvendas
+ORDER BY quantidade_vendas ASC
+------------------------------
+Exercício 14
+SELECT estado, ROUND((SUM(qtd*vrunt)/COUNT(cdven)), 2) AS gastomedio FROM tbvendas
+WHERE status LIKE "Concluído"
+GROUP BY estado
+ORDER BY gastomedio DESC
+------------------------------
+Exercício 15
+SELECT cdven FROM tbvendas
+WHERE deletado == TRUE
+ORDER BY cdven
+------------------------------
+Exercício 16
+SELECT estado, nmpro, (SUM(qtd)/COUNT(cdven)) AS quantidade_media FROM tbvendas
+WHERE status LIKE "Concluído"
+GROUP BY cdpro, estado  
+ORDER BY estado, nmpro 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
