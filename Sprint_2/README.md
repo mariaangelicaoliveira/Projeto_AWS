@@ -8,9 +8,11 @@
 
 2. Exercicio Exportacao de Dados
 
-[Exportacao de Dados 1](exercicios/exportacao_1.csv) 
+[Exportacao de Dados .txt](exercicios/exportacao_dados.txt)
 
-[Exportacao de Dados 2](exercicios/exportacao_2.csv)
+[Exportacao de Dados 1 .csv](exercicios/exportacao_1.csv) 
+
+[Exportacao de Dados 2 .csv](exercicios/exportacao_2.csv)
 
 
 
