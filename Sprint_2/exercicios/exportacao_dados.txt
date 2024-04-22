@@ -1,0 +1,25 @@
+SELECT 
+li.cod AS CodLvro, 
+li.titulo AS Titulo,  
+li.autor AS CodAutor,
+au.nome AS NomeAutor,
+li.valor AS Valor,
+li.editora AS CodEditora,
+ed.nome  AS NomeEditora
+FROM livro AS li
+INNER JOIN autor AS au ON au.codautor = li.autor 
+INNER JOIN editora AS ed ON ed.codeditora = li.editora  
+ORDER BY li.valor DESC
+LIMIT 10
+
+----------------------------------
+
+SELECT 
+ed.codeditora AS CodEditora,
+ed.nome AS NomeEditora,
+COUNT(li.cod) AS QuantidadeLivros
+FROM editora AS ed 
+LEFT JOIN livro AS li ON li.editora = ed.codeditora 
+GROUP BY ed.codeditora 
+ORDER BY QuantidadeLivros DESC
+LIMIT 5
