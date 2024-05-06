@@ -1,0 +1,38 @@
+Etapa 5
+
+lista.sort(key=lambda x: x[1], reverse=True)
+for lis in lista:
+    print(f"{lis[0]} - {lis[1]}")
+
+Resultado:
+Harrison Ford - 4871.70 
+Samuel L. Jackson - 4772.80 
+Morgan Freeman - 4468.30 
+Tom Hanks - 4340.80 
+Robert Downey Jr. - 3947.30 
+Eddie Murphy - 3810.40 
+Tom Cruise - 3587.20 
+Johnny Depp - 3368.60 
+Michael Caine - 3351.50 
+Scarlett Johansson - 3341.20 
+Gary Oldman - 3294.00 
+Robin Williams - 3279.30 
+Bruce Willis - 3189.40 
+Stellan Skarsgard - 3175.00 
+Anthony Daniels - 3162.90 
+Ian McKellen - 3150.40 
+Will Smith - 3149.10 
+Stanley Tucci - 3123.90 
+Matt Damon - 3107.30 
+Robert DeNiro - 3081.30 
+Cameron Diaz - 3031.70 
+Liam Neeson - 2942.70 
+Andy Serkis - 2890.60 
+Don Cheadle - 2885.40 
+Ben Stiller - 2827.00 
+...
+Philip Seymour Hoffman - 2463.70 
+Sandra Bullock - 2462.60 
+Chris Evans - 2457.80 
+Anne Hathaway - 2416.50 
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...

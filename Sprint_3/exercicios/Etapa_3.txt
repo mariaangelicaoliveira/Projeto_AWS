@@ -1,0 +1,4 @@
+Etapa 3
+print(f'O ator com o maior Average por filme é {ator_mair_avg} com {maior_avg} de Average.')
+
+Resultado: O ator com o maior Average por filme é Anthony Daniels com 451.8 de Average.

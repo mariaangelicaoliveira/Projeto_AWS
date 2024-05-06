@@ -1,0 +1,6 @@
+Etapa 1
+
+print(f'O ator com o maior número de filmes é {ator_mais_filmes} com {maior_numero_filmes} filmes.')
+
+Resultado: O ator com o maior número de filmes é Robert DeNiro com 79 filmes.
+

@@ -1,0 +1,4 @@
+Etapa 2
+print(f'A media é {totalGross}')
+
+Resultado: A media é 8.962
