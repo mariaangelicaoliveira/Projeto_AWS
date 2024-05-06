@@ -1,21 +1,12 @@
 
-# Instruções
+# Desafio
+
+## Código comentado em formato .ipynb
 
 
-Neste arquivo você irá apresentar suas entregas referentes ao desafio final. 
-O desafio está presente em cada sprint ao longo do estágio. Utilize o diretório "Desafio" para organizar seus artefatos e este README.md para fazer referência aos arquivos de código-fonte e demais entregáveis solicitados.
+1. [Arquivo de dados googleplaystore .csv](googleplaystore.csv)
 
-
-# Etapas
-
-
-1. ...
-[Etapa I](etapa-1/entrega.txt)
-
-
-2. ...
-[Etapa II](etapa-2/entrega.txt)
-
+2. [Código em formato .ipynb](DesafioSprint3Python.ipynb)
 
 
 
