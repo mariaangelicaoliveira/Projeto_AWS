@@ -88,7 +88,7 @@
 
 # Desafio
 
-[Arquivo de dados googleplaystore .csv](Desafio/googleplaystore.csv)
+1. [Arquivo de dados googleplaystore .csv](Desafio/googleplaystore.csv)
 
-1. [Código em formato .ipynb](Desafio/DesafioSprint3Python.ipynb)
+2. [Código em formato .ipynb](Desafio/DesafioSprint3Python.ipynb)
 
