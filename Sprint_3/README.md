@@ -14,15 +14,15 @@
 
 [Exercício Python em formato .ipynb](exercicios/Exercicio_II.ipynb)
 
-[Etapa 1 em formato .txt](exercicios\Etapa_1.txt)
+[Etapa 1 em formato .txt](exercicios/Etapa_1.txt)
 
-[Etapa 2 em formato .txt](exercicios\Etapa_2.txt)
+[Etapa 2 em formato .txt](exercicios/Etapa_2.txt)
 
-[Etapa 3 em formato .txt](exercicios\Etapa_3.txt)
+[Etapa 3 em formato .txt](exercicios/Etapa_3.txt)
 
-[Etapa 4 em formato .txt](exercicios\Etapa_4.txt)
+[Etapa 4 em formato .txt](exercicios/Etapa_4.txt)
 
-[Etapa 5 em formato .txt](exercicios\Etapa_5.txt)
+[Etapa 5 em formato .txt](exercicios/Etapa_5.txt)
 
 
 
