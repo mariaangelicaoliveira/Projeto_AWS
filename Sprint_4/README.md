@@ -105,8 +105,7 @@
 
 - Renomeando a imagem:
  
-      docker tag 
-
+      docker tag <nome> <novo nome>
 
 
 ![11](evidencias/3_etapa/5_renomeando.png)
@@ -118,7 +117,7 @@
 - Inicia o container:
        
        docker run
-      -it - de maneira interativa
+      -it: executa de maneira interativa
 
 
 ![13](evidencias/3_etapa/7_rodando.png)
