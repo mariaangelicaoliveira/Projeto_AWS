@@ -5,6 +5,8 @@
 
 [Respostas de 1 a 7 em formato .ipynb com markdown separando](exercicios/exercicios.ipynb)
 
+[Respostas de 1 a 7 em formato .py](exercicios/exerciciospy.py)
+
 
 # Evidências
 

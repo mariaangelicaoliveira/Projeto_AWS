@@ -45,8 +45,8 @@
 
 -  Reiniciando:
   
-       Docker stop - para de rodar
-       Docker start - reinicia 
+       Docker stop: para de rodar
+       Docker start: reinicia 
 
 ![6](../evidencias/2_etapa/5_reiniciando.png)
 
@@ -92,6 +92,8 @@
 
 
 - Renomeando imagem:
+  
+       docker tag <nome> <novo novo>
 
 
 ![11](../evidencias/3_etapa/5_renomeando.png)
@@ -103,7 +105,7 @@
 - Inicia o container:
        
        docker run
-      -it - de maneira interativa
+      -it: de maneira interativa
 
 
 ![13](../evidencias/3_etapa/7_rodando.png)
