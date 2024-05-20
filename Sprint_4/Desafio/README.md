@@ -4,13 +4,17 @@
 
  -  Iniciando um novo container e copiando o script python:
  
-        Docker run - inicia
+        Docker run: inicia
 
-        -d - executa em segundo plano
+        -d: executa em segundo plano
 
-        --name - define o nome
+        --name: define o nome
 
-        cp - copia 
+        -p: porta
+
+        nginx: servidor
+
+        cp: copia 
 
 ![1](../evidencias/1_etapa/1_criandocontainer.png)
 
@@ -65,13 +69,17 @@
 
 - Iniciando um novo container e copiando o script python:
  
-       Docker run - inicia
+         Docker run: inicia
 
-       -d - executa em segundo plano
+        -d: executa em segundo plano
 
-       --name - define o nome
+        --name: define o nome
 
-       cp - copia 
+        -p: porta
+
+        nginx: servidor
+
+        cp: copia 
 
 
 ![9](../evidencias/3_etapa/3_container.png)
