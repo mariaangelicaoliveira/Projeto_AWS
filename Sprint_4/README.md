@@ -12,12 +12,20 @@
 
 ### Etapa 1
 
- - Criando um Container:
+ - Iniciando um novo container e copiando o script python:
+ 
+       Docker run - inicia
+
+       -d - executa em segundo plano
+
+       --name - define o nome
+
+       cp - copia 
 
 ![1](evidencias/1_etapa/1_criandocontainer.png)
 
 
-- Criando um arquivo Dockerfile:
+- Criando um arquivo Dockerfile para executar o script python carguru.py:
 
 ![2](evidencias/1_etapa/2_dockerfile.png)
 
@@ -42,6 +50,9 @@
 
 
 - Reiniciando:
+  
+      Docker stop - para de rodar
+      Docker start - reinicia 
 
 ![6](evidencias/2_etapa/5_reiniciando.png)
 
@@ -62,7 +73,15 @@
 ![8](evidencias/3_etapa/2_script.png)
 
 
-- Criando um container:
+- Iniciando um novo container e copiando o script python:
+ 
+       Docker run - inicia
+
+       -d - executa em segundo plano
+
+       --name - define o nome
+
+       cp - copia 
 
 
 ![9](evidencias/3_etapa/3_container.png)
@@ -74,7 +93,10 @@
 ![10](evidencias/3_etapa/4_build.png)
 
 
-- Renomeando imagem:
+- Renomeando a imagem:
+ 
+      docker tag 
+
 
 
 ![11](evidencias/3_etapa/5_renomeando.png)
@@ -83,7 +105,10 @@
 ![12](evidencias/3_etapa/6_renomeando.png)
 
 
-- Rodando imagem:
+- Inicia o container:
+       
+       docker run
+      -it - de maneira interativa
 
 
 ![13](evidencias/3_etapa/7_rodando.png)
