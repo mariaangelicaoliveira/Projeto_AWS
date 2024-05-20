@@ -3,7 +3,7 @@
 
 1. Exercicios
 
-[Respostas 1 a 7](exercicios/exercicios.ipynb)
+[Respostas de 1 a 7 em formato .ipynb com markdown separando](exercicios/exercicios.ipynb)
 
 
 # Evidências
