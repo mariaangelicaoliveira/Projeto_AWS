@@ -70,7 +70,7 @@ Certificados dos Cursos da AWS:
 - Arquivos  
 1. [Desafio Python formato.py](Desafio/etapa-1/desafio5.py)
 2. [Desafio Python formato.ipynb](Desafio/etapa-1/desafios5.ipynb)
-3. [Código SQL em formato .txt](Desafio/etapa-1/SQL.txt)
+3. [Código SQL - Query](/Desafio/query.sql)
 4. [Arquivo CSV](Desafio/chegadas_2023_4.csv)
 
 
