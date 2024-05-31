@@ -1,43 +1,69 @@
-
-# Instruções
-
-Neste arquivo você irá apresentar suas entregas da Sprint corrente. Observe que existem 4 diretórios no exemplo: **exercícios**, **certificados** e **evidências**.
-
- - O diretório **exercícios** corresponde ao local onde você irá adicionar o código-fonte das atividades de codificação da Sprint, quando houver.
- - O diretório **evidências** você pode utilizar para adicionar imagens demonstrando a execução/resultados de atividades, quando necessário.
- - O diretório **certificados** é o local onde você irá armazenar os certificados dos cursos solicitados durante a sprint. O nome de cada certificado de corresponder ao título do curso.
- - O diretório **desafio** é o local onde você irá armazenar a resolução do que se pede no desafio, todos recursos que você considerar importante deverá está dentro desse diretório.
-
-Utilize o arquivo README.md da Sprint para organizar todas as suas entregas. Faça referência aos arquivos de código-fonte. Evite colocar código diretamente no Markdown pois dificulta nossa avaliação.
-
-
 # Exercícios
 
 
-1. ...
-[Resposta Ex1.](exercicios/ex1.txt)
+1. Jogo
 
-
-2. ...
-[Resposta Ex2.](exercicios/ex2.txt)
-
-
+[Badge link](evidencias/jogo_badge/badge_link.txt)
 
 
 # Evidências
 
+## Jogo
 
-Ao executar o código do exercício ... observei que ... conforme podemos ver na imagem a seguir:
+![1](evidencias/jogo_badge/badge_1.png)
+![2](evidencias/jogo_badge/badge_2.png)
 
 
-![Evidencia 1](evidencias/sample.webp)
+## Desafio
+### Etapa 1 - S3 - Criar um Bucket novo e carregar arquivo
+
+
+      
+
+![3](evidencias/bucket_s3/bucket_1.png)
+![4](evidencias/bucket_s3/bucket_4.png)
+
+
+
+
+### Etapa 2 - Código - usando VSCode
+
+
+
+
+
+![5](evidencias/desafio/desafio_1.png)
+![6](evidencias/desafio/desafio_2.png)
+
+
+### Resultadodo Código:
+
+![7](evidencias/desafio/desafio_3.png)
+
+
+
+
 
 
 
 # Certificados
 
 
-- Certificado do Curso ABC
-![Curso ABC](certificados/sample.png)
+Certificados dos Cursos da AWS:
+
+- Curso-padrão de preparação para o exame:
+![Curso AWS](certificados/curso_1.png)
+
+- AWS Cloud Practitioner Essentials
+![Curso AWS](certificados/curso_2.png)
+
+
+
+# Desafio
+
+- Arquivos  
+1. [Desafio Python formato.py](Desafio/etapa-1/desafio5.py)
+2. [Desafio Python formato.ipynb](Desafio/etapa-1/desafios5.ipynb)
+3. [Código SQL em formato .txt](Desafio/etapa-1/SQL.txt)
 
 

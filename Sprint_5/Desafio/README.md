@@ -1,21 +1,29 @@
-
-# Instruções
-
-
-Neste arquivo você irá apresentar suas entregas referentes ao desafio final. 
-O desafio está presente em cada sprint ao longo do estágio. Utilize o diretório "Desafio" para organizar seus artefatos e este README.md para fazer referência aos arquivos de código-fonte e demais entregáveis solicitados.
+## Desafio
 
 
-# Etapas
+### Etapa 1 - S3 - Criar um Bucket novo e carregar arquivo
 
 
-1. ...
-[Etapa I](etapa-1/entrega.txt)
+![3](../evidencias/bucket_s3/bucket_1.png)
+![4](../evidencias/bucket_s3/bucket_4.png)
 
 
-2. ...
-[Etapa II](etapa-2/entrega.txt)
+### Etapa 2 - Código - usando VSCode
 
+![5](../evidencias/desafio/desafio_1.png)
+![6](../evidencias/desafio/desafio_2.png)
+
+
+### Resultadodo Código:
+
+![7](../evidencias/desafio/desafio_3.png)
+
+
+### Arquivos  
+
+1. [Desafio Python formato.py](../Desafio/etapa-1/desafio5.py)
+2. [Desafio Python formato.ipynb](../Desafio/etapa-1/desafios5.ipynb)
+3. [Código SQL em formato .txt](../Desafio/etapa-1/SQL.txt)
 
 
 
