@@ -15,6 +15,12 @@
 
 
 ## Desafio
+
+### Arquivo CSV escolhido: 
+
+![3](evidencias/csv.png)
+
+
 ### Etapa 1 - S3 - Criar um Bucket novo e carregar arquivo
 
 
@@ -65,5 +71,7 @@ Certificados dos Cursos da AWS:
 1. [Desafio Python formato.py](Desafio/etapa-1/desafio5.py)
 2. [Desafio Python formato.ipynb](Desafio/etapa-1/desafios5.ipynb)
 3. [Código SQL em formato .txt](Desafio/etapa-1/SQL.txt)
+4. [Arquivo CSV](Desafio/chegadas_2023_4.csv)
+
 
 
