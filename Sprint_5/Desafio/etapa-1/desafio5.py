@@ -42,9 +42,9 @@ def s3_select(bucket_name, file_key, query_expression, access_key_id, secret_acc
         print("Ocorreu um erro ao executar a seleção:", e)
 
 # Credenciais 
-access_key_id = 'ASIAU6GDVVF6M6ET24WJ'
-secret_access_key = '8FfbP2S1DCaHfbJQurK3+jC5BwKPrhM2Yrex3AUp'
-session_token = 'IQoJb3JpZ2luX2VjEK3//////////wEaCXVzLWVhc3QtMSJGMEQCIGoOkyPVYhTX1AAIQZ1JvHACMjh7ytJ9C13b/4gEjMLuAiAC9Z9ACsgb9xEf8JVLBGdiitWZDS8iXfzqgs6QKHOkECqfAwg2EAAaDDMzOTcxMjc4MDY2OCIMDR6h48bvy0oA+tBIKvwCD1IHgltKnQ0pGI00Ru7hvB1ZTCNjX0zgNr/EdSo84WfFfx1k9YxfhcWdEj6tqx+6x7xvtPrnNpu7Is9PWb/Jo4CoqlNA7MNyL1Clz70/7lPPCpH1Pj30W6BY7WorlLu9KTl4PcrlOFkbWHMchrXyRaJ0h/g9oiz7CDDlo0Q8MJ7K9rVbDAy8c+dTWcJrcMDNH/Sv9rW2lGrjdqy8VUTPuAVCw10B0Tj8V4LJKoPFOilPb7Fsfp0Rox2VqsD94kVkTXl2GDLdchAJx8ry2Og6zonvFbhafQPCEIda+WdGItnBxJM6MXeE21VmpOyBISsTNgwRmVOcxgg+uSk3WI0T317g4+dklmKdveZHJlFKd4c0NYQ/WhQcQ4qTLftt6c/IqZ67J/A3hPXsA8/wLWHbGeX6p6RJaotK+gMn7cQS2c8GUTe0E+IbzRRjyX9CdijlCLPXlm//tDq8o9XSBCdQ/wZdAJQuR+ErVe8VFIsbs9ce4CxSvJFM+yX5i8MwhMHjsgY6pwG3Lfm21uDN/CD6KINojBxor22gJF/qnxYHMq+haEKYGrgiA37DadxDA+5x9xbRC0YL1LRSujJxQd5smQmqJ6OcRRMwd7FBn7sKkNmSJHZJOajIKw8kjnP8newiszmlCZen89g4vRxB1XqUvyEDcLc2lH7y6trncjDs6ZUy2SkKLVlY/m0MJjJesAQbWA1fPvGYdg46PUWiyN6RZdszj7PmHgEFCqzSTg=='
+access_key_id = 'ASIAU6GDVVF6P2RXPMTL'
+secret_access_key = 'CGjWMdFN5Q9ycyX/XLQtieeQECy5Nsp65qreCLga'
+session_token = 'IQoJb3JpZ2luX2VjEML//////////wEaCXVzLWVhc3QtMSJIMEYCIQCEkkFoK7+vtLza+TY7DkZ8THlLmorf8XU0jFAwIbXGsgIhAIULJDZmNssF4eRf3sp0f+ohSvTGbokG5hnSr1EO8bS+Kp8DCEoQABoMMzM5NzEyNzgwNjY4Igwm/T3AQwBWw2ZVcSYq/AJbec+Ki6bjCNYKSc8POJdClZ2mqFU4aVrLJlD3aHiIMD/51xHwDKAZIlA9B7+KP8z3O7eSMvnuakV2KE3On6KCPajwnwGJtICtKQvftTealeWIMJ3KU09G33EcqTwX2IrlniIckdiwqocPfY29kWTjxyd/4Z5TwjUVpBIbgpZuUIdnaStYZbJfZMhRqd7dp3vhwE9qKFWFnPANNLqeyNjr1AmLDPp1leqelWPtcSpqH5nAbKgOyCmw6d8Nk4MUIVSRKPXP7EOebDAuj84u7QHinpTn5nlPMpcf0cuBtZzrh5peC9OLm0EjDZ34DFnYNoIRG2V9NtI1ra6Yx66Xy+Tz3EZn/QfopW4cZtjT235qsN0zZx/Oyh2GGUfhnsAmWRsXWH5yvqkOQqe4L8VzN7YVT1O7vOU89ZleAI2xgoDn0rR3NAciGJ4P4OwwFcIagsyg86JZ+hDwhZzb1r0g6YM3TlR0D95zVJWzUvC21WDtLa9imgfGDtrblNnsGzDSjeiyBjqlAbswRBSAs/t6hL+lVhZ58Pu5CJWWrH/ghl9Cc+kc3hb+Zd8V16UTl8sAhtpqWCdMuzs/+1xUcZRON3Iy7+M7udyEDdm4LW8eJWgmbyk4Jh711HLwWHwCWYrNCIWIw05dN/CePXVWeNEGB/SKJ6p4RkU0fQeZByVz7krd7xp3Cevhw7zVJ6dxFoecGjL/qbQtChq5ZWdjGsIju4hUjttcX4S9C3ptKw=='
 
 # Arquivo no S3
 bucket_name = 'bucketangelicasprint5'
@@ -60,10 +60,10 @@ s3_select(bucket_name, file_key, query_expression_2, access_key_id, secret_acces
 
 # Item 4.1 - Claúsula filtra dois operadores lógicos - AND que verifica se o cod_continente esta entre 4 e 6  
 # e o operador OR que verifica se é cod_continente = 1
-# Item 4.3 -  CASE continente = EUROPA recebe EURO senão recebe DOLLAR | chegadas >= 169 recebe 'acima da media' 
+# Item 4.3 - função condicional - CASE continente = EUROPA recebe EURO senão recebe DOLLAR | chegadas >= 169 recebe 'acima da media' 
 # senão 'abaixo da média'
-# Item 4.4 - CAST - INT inteiro e FLOAT para float
-# Item 4.5 - DATE_ADD - adiciona quantidade de mês no ano
+# Item 4.4 - função de conversão - CAST - INT inteiro e FLOAT para float
+# Item 4.5 - função data - DATE_ADD - adiciona quantidade de mês no ano
 # Item 4.6 - Função string - UPPER - deixa letras maiusculas
 query_expression_3 = '''SELECT 
                             UPPER(s.continente), 
