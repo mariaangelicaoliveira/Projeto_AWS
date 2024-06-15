@@ -26,7 +26,6 @@ Será feita uma análise para fornecer um panorama detalhado das séries e filme
 2. [Arquivo Dockerfile](../Desafio/dockerfile)
 3. [Arquivo Docker-compose](../Desafio/docker-compose.yml)
 4. [Arquivo Requeriments.txt](../Desafio/requirements.txt)
-4. [Arquivos csv](../Desafio/data)
 5. [Arquivo .env](../Desafio/.env)
 
 # Evidências - Desafio
