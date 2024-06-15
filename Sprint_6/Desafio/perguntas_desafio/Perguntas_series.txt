@@ -1,0 +1,14 @@
+Perguntas das séries de ação/aventura:
+
+
+Quais são as séries do gênero ação/aventura lançadas nos últimos 5 anos?
+Quais são os artistas que participaram de mais de uma série do gênero ação/aventura?
+Quais são as séries de ação/aventura com a maior nota média e mais de 500 votos?
+Quais são as profissões dos artistas que trabalharam em séries de ação/aventura?
+Quais são os personagens principais das séries de ação/aventura que têm mais de 45 minutos de duração por episódio?
+
+Sobre o Desafio
+O desafio consiste em analisar uma base de dados de séries para extrair informações específicas sobre séries do gênero ação/aventura. O objetivo é responder a perguntas definidas que nos permitirão entender melhor o cenário dessas séries, identificar padrões de popularidade, participação de artistas e outras características relevantes.
+
+Motivo da Análise
+A análise será realizada para fornecer insights detalhados sobre séries de ação/aventura, facilitando a identificação de tendências recentes, a popularidade de séries e artistas, e a diversidade de profissões envolvidas na produção dessas séries. Essas informações podem ser úteis para estudiosos da mídia, fãs de séries e profissionais da indústria de entretenimento que buscam entender melhor o mercado de séries de ação/aventura.
