@@ -23,7 +23,7 @@ Será feita uma análise para fornecer um panorama detalhado das séries e filme
 
 ### Arquivos  
 1. [Arquivo Python .py](../Desafio/teste.py)
-2. [Arquivo Dockerfile](../Desafio/dockerfile)
+2. [Arquivo Dockerfile](../Desafio/Dockerfile)
 3. [Arquivo Docker-compose](../Desafio/docker-compose.yml)
 4. [Arquivo Requeriments.txt](../Desafio/requirements.txt)
 5. [Arquivo .env](../Desafio/.env)
