@@ -75,7 +75,7 @@
 
 ### Etapa 2 - Construir o código
 
-![1](evidencias\exercicios\3_lambda\etapa2\2.png)
+![1](evidencias/exercicios/3_lambda/etapa2/2.png)
 
 ### Etapa 3 - Criar uma Layer
 
