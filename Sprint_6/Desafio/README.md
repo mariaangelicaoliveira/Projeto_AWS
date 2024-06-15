@@ -73,12 +73,12 @@ Será feita uma análise para fornecer um panorama detalhado das séries e filme
 
 #### Resumo: Lendo os arquivos CSV, acessando a AWS, criando Bucket e fazendo upload dos arquivos no bucket: 
 
-![1](../evidencias\desafio\execucaopython\1.png)
-![2](../evidencias\desafio\execucaopython\2.png)
+![1](../evidencias/desafio/execucaopython/1.png)
+![2](../evidencias/desafio/execucaopython/2.png)
 
 #### Upload dos arquivos feito com sucesso para o bucket no S3:
 
-![2](../evidencias\desafio\execucaopython\3.png)
+![2](../evidencias/desafio/execucaopython/3.png)
 
 
 ## Parte 3
@@ -90,21 +90,21 @@ Será feita uma análise para fornecer um panorama detalhado das séries e filme
 ### Arquivo Docker-compose
 #### Define a configuração para executar um serviço de contêiner Docker usando o Docker Compose:
 
-![1](../evidencias\desafio\outros\dockercompose.png)
+![1](../evidencias/desafio/outros/dockercompose.png)
 
 ### Arquivo .env
 #### Credenciais da AWS:
 
-![1](../evidencias\desafio\outros\env.png)
+![1](../evidencias/desafio/outros/env.png)
 
 ### Arquivo Requirements
 #### Lista as dependências do projeto código Python, definindo um conjunto de bibliotecas que são essenciais para o funcionamento do projeto python:
 
-![1](../evidencias\desafio\outros\requirements.png)
+![1](../evidencias/desafio/outros/requirements.png)
 
 ### Organização na pasta
 
-![1](../evidencias\desafio\outros\organizacao.png)
+![1](../evidencias/desafio/outros/organizacao.png)
 
 ## Parte 4
 ### Execução do Docker
