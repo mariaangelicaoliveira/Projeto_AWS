@@ -181,7 +181,12 @@
 
 #### Comando 'docker compase up', responsavel por iniciar e executar os contêiners definidos no arquivo 'docker-compose.yml'. Ele lê os arquivos, contrói as imagens, cria e inicializa os contêiners, aguarda os  contêineres iniciarem e exibe os Log. Assim, Redes e contêineres necessários foram criados corretamente e o contêiner está em execução.
 
-![3](evidencias/desafio/dockerexecucao/3.png)
+![1](evidencias/desafio/dockerexecucao/3.png)
+![2](evidencias/desafio/dockerexecucao/4.png)
+
+#### Docker image ls - Imagem criada e executada 'vscodesafio6-app'
+
+![1](evidencias/desafio/dockerexecucao/5.png)
 
       
 ### Resultado no S3
