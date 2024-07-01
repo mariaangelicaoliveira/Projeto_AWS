@@ -173,7 +173,7 @@
 
 ### S3
 
-#### Resultao no S3
+#### Resultado no S3
 ![1](evidencias/Desafio/s3/s3print.png)
 
 
