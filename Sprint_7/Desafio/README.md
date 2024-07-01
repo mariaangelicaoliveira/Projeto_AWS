@@ -1,7 +1,8 @@
 # Desafio
 
 ### Arquivos  
-1. [Arquivo Python Desafio](../desafio/etapas/complement_data.py)
+1. [Arquivo Python Desafio](../Desafio/etapas/complement_data.py)
+
 
 
 ## Parte 1
@@ -57,11 +58,11 @@
 ### Lambda
 
 #### Função Lambda
-![1](../evidencias\Desafio\lambda\1.png)
+![1](../evidencias/Desafio/lambda/1.png)
 
 #### Executando o código na AWS Lambda
-![1](../evidencias\Desafio\lambda\2.png)
-![1](../evidencias\Desafio\lambda\3.png)
+![1](../evidencias/Desafio/lambda/2.png)
+![1](../evidencias/Desafio/lambda/3.png)
 
 ### Amazon Event Bridge
 
