@@ -2,7 +2,7 @@
 
 # Exercícios 
 
-#### OBS.: O arquivo "nomes_aleatorios.txt" do exercício de spark não esta baixado nesse repositório por causa do tamanho grande, para não travar o git na hora dos update.
+#### OBS.: O arquivo "nomes_aleatorios.txt" do exercício 2 de spark não esta baixado nesse repositório por causa do tamanho grande, para não travar o git na hora dos update.
 
 ## EXERCÍCIO 1 - APACHE SPARK
 
