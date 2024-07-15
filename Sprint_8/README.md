@@ -2,13 +2,13 @@
 
 # Evidências - Exercícios e Desafio
 
-
+#### OBS.: O arquivo "nomes_aleatorios.txt" do exercício de spark não esta baixado nesse repositório por causa do tamanho grande, para não travar o git na hora dos update. 
 
 ## EXERCÍCIO 1 - APACHE SPARK
 
 ### Arquivos  
 1. [Arquivo Python](exercicios/spark/codigocompleto.py)
-2. [Arquivo txt](exercicios/spark/nomes_aleatorios.txt)
+
 
 ### Parte 1 
 
