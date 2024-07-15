@@ -179,7 +179,7 @@ _______________________
 ![1](evidencias/desafio/athena_SM/4.png)
 
 
-## 5. Código comentado do Job "moviesAndSeries"
+## 5. Código comentado do Job "tmdb"
  
 ### Configurações de ambiente para executar um job ETL, integrando funcionalidades do Spark e do Glue para realizar transformações de dados e gerenciamento de jobs.
 
