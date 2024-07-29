@@ -218,7 +218,6 @@
 ![1](../evidencias/glue/cod_tmdb_series/9.png)
 
 ## Refined Zone no bucket do S3 -  dos scripts feito no Glue:
-
 ### Modelagem dimensional separado por categorias: artista, genero, titulo, ano e tabela fato
 
 ![1](../evidencias/refined_zone/1.png)
