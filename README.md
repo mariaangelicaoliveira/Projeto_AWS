@@ -8,7 +8,7 @@
 Meu nome é Maria Angélica Crispim de Oliveira, sou estudante do curso de Ciência de Dados na Faculdade de Tecnologia de Ourinhos/SP (FATEC). Atualmente, faço estágio na empresa Compass UOL, sendo essa minha primeira experiência profissional na área de tecnologia. Meus hobbies são: ler livros, ir ao cinema, assistir séries, academia, ouvir música e viajar.
 
 
-## Sprints 
+## Desafios: 
 
 1. [Sprint 1](Sprint_1/README.md)
 2. [Sprint 2](Sprint_2/README.md)
