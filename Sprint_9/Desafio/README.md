@@ -270,7 +270,7 @@
 
 ## Observação: 
 
-### Como são muitas tabelas e Views, selecionei as principais para deixar como evidência, pois o processo de criação foi seguindo a mesma lógica. 
+### Como são muitas tabelas e Views, selecionei as principais para deixar como evidência, pois o processo de criação foi seguindo o mesmo padrão. 
 
 ## Tabelas: 
 ##  Tabelas Movies 
