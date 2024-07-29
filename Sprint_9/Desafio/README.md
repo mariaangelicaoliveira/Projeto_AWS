@@ -6,7 +6,7 @@
 
 ### Observações:
 
-#### 1. Para explorar melhor os dados, adicionei mais dados do tmdb movies e acrescentei séries também, usando mesmo código e o mesmo passo a passo da sprint 7. 
+#### 1. Para explorar melhor os dados, adicionei mais dados do tmdb movies e acrescentei séries também, usando mesmo código e o mesmo passo a passo da sprint 7, só mudando a URL da API do TMDB.
 
 #### 2. Na sprint anterior,  já havia refinado os dados selecionando o gênero especifico aventura e ação. 
 
