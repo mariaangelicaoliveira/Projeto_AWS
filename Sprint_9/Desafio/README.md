@@ -217,6 +217,33 @@
 
 ![1](../evidencias/glue/cod_tmdb_series/9.png)
 
+## Refined Zone no bucket do S3 -  dos scripts feito no Glue:
+
+![1](../evidencias/refined_zone/1.png)
+
+### Modelagem dimensional separado por categorias: artista, genero, titulo, ano e tabela fato 
+
+### Movies
+
+
+![1](../evidencias/refined_zone/s3movies/1.png)
+![1](../evidencias/refined_zone/s3movies/2.png)
+
+### Series
+
+![1](../evidencias/refined_zone/s3series/1.png)
+![1](../evidencias/refined_zone/s3series/2.png)
+
+### TMDB Movies
+
+![1](../evidencias/refined_zone/s3tmdbmovies/1.png)
+![1](../evidencias/refined_zone/s3tmdbmovies/2.png)
+
+### TMDB Series
+
+![1](../evidencias/refined_zone/s3tmdbseries/1.png)
+![1](../evidencias/refined_zone/s3tmdbseries/2.png)
+
 
 ## 6. Criando Crawlers
 
