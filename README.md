@@ -21,10 +21,6 @@ Meu nome é Maria Angélica Crispim de Oliveira, sou estudante do curso de Ciên
 9. [Sprint 9](Sprint_9/README.md)
 10. [Sprint 10](Sprint_10/README.md)
 
-## Desafio
-
-1.[Desafio Final](Desafio/README.md)
-
 
 
 
