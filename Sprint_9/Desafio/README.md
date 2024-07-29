@@ -317,14 +317,14 @@
 
 ## Views - Criadas no Athena usando SQL
 
-## Movies e TMDB Movies (Duas tabelas de filmes)
+## Movies e TMDB Movies (Juntando as Duas tabelas de filmes)
 
 ![1](../evidencias/athena/views/filmes_and_tmdb/1.png)
 ![1](../evidencias/athena/views/filmes_and_tmdb/2.png)
 ![1](../evidencias/athena/views/filmes_and_tmdb/3.png)
 ![1](../evidencias/athena/views/filmes_and_tmdb/4.png)
 
-## Series e TMDB Series (Duas tabelas de series)
+## Series e TMDB Series (Juntando as Duas tabelas de series)
 
 ![1](../evidencias/athena/views/series_and_tmdb/1.png)
 ![1](../evidencias/athena/views/series_and_tmdb/2.png)
