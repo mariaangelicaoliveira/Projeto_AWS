@@ -20,9 +20,10 @@
 4. [Arquivo TMDB Series ](../Desafio/refined/tmdb_series_multi.py)
 
 ## Resumo:
-### O desafio foi resolvido de duas maneiras:
-### A primeira usando glue para ler o arquivo parquet na trusted zone, modificá-lo  e salva-lo na refined zone. Depois usei o crawler pegar os dados salvos no refined zone que estavam no formato parquet e criar um banco de dados no athena.
-### A segunda forma usei o athena para fazer um select no banco de dados series e criar a tabela fato.
+#### O desafio foi resolvido de duas maneiras:
+#### A primeira usando glue para ler o arquivo parquet na trusted zone, modificá-lo  e salva-lo na refined zone. 
+#### Depois usei o crawler pegar os dados salvos no refined zone que estavam no formato parquet e criar um banco de dados no athena.
+#### A segunda forma usei o athena para fazer um select no banco de dados e criar tabelas e views.
 
 ## 1. AWS Glue
 
