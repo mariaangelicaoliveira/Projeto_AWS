@@ -27,16 +27,47 @@ s3 = boto3.client(
 bucket_name = 'bucketdesafio'
 folder_name = 'raw/TMDB/JSON'
 
+def fetch_tmdb_data(url, params, max_results=100):
+    results = []
+    page = 1
+    while len(results) < max_results:
+        params['page'] = page
+        response = requests.get(url, params=params)
+        response.raise_for_status()
+        data = response.json()
+        results.extend(data['results'])
+        if len(data['results']) == 0 or len(results) >= max_results:
+            break
+        page += 1
+    return results[:max_results]
+
 def lambda_handler(event, context):
     try:
-        # Configurações da API do TMDB
-        tmdb_url = 'https://api.themoviedb.org/3/movie/popular'
-        params = {'api_key': tmdb_api_key, 'language': 'en-US', 'page': 1}
+        # Configurações da API do TMDB para filmes
+        movie_url = 'https://api.themoviedb.org/3/discover/movie'
+        movie_params = {
+            'api_key': tmdb_api_key,
+            'language': 'en-US',
+            'sort_by': 'popularity.desc',
+            'with_genres': '28,12',  # Ação e Aventura
+            'primary_release_date.gte': f'{datetime.now().year - 10}-01-01',
+            'primary_release_date.lte': f'{datetime.now().year}-12-31'
+        }
 
-        # Chamada à API do TMDB
-        response = requests.get(tmdb_url, params=params)
-        response.raise_for_status()  # Levanta um erro para códigos de status ruins
-        data = response.json()
+        # Configurações da API do TMDB para séries
+        tv_url = 'https://api.themoviedb.org/3/discover/tv'
+        tv_params = {
+            'api_key': tmdb_api_key,
+            'language': 'en-US',
+            'sort_by': 'popularity.desc',
+            'with_genres': '10759',  # Ação e Aventura
+            'first_air_date.gte': f'{datetime.now().year - 10}-01-01',
+            'first_air_date.lte': f'{datetime.now().year}-12-31'
+        }
+
+        # Obter filmes e séries
+        movies = fetch_tmdb_data(movie_url, movie_params)
+        tv_shows = fetch_tmdb_data(tv_url, tv_params)
 
         # Obter a data atual
         current_date = datetime.now()
@@ -44,13 +75,15 @@ def lambda_handler(event, context):
         month = current_date.strftime('%m')
         day = current_date.strftime('%d')
 
-        # Agrupar dados em lotes de 100 registros
-        batches = [data['results'][i:i + 100] for i in range(0, len(data['results']), 100)]
+        # Carregar filmes no S3
+        movie_file_name = 'movies.json'
+        movie_file_path = f'{folder_name}/{year}/{month}/{day}/{movie_file_name}'
+        s3.put_object(Bucket=bucket_name, Key=movie_file_path, Body=json.dumps(movies))
 
-        for i, batch in enumerate(batches):
-            file_name = f'movies_batch_{i}.json'
-            file_path = f'{folder_name}/{year}/{month}/{day}/{file_name}'
-            s3.put_object(Bucket=bucket_name, Key=file_path, Body=json.dumps(batch))
+        # Carregar séries no S3
+        tv_file_name = 'tv_shows.json'
+        tv_file_path = f'{folder_name}/{year}/{month}/{day}/{tv_file_name}'
+        s3.put_object(Bucket=bucket_name, Key=tv_file_path, Body=json.dumps(tv_shows))
 
         return {
             'statusCode': 200,
