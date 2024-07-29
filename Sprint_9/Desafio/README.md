@@ -10,6 +10,8 @@
 
 #### 2. Na sprint anterior,  já havia refinado os dados selecionando o gênero especifico aventura e ação. 
 
+#### 3. São 4 arquivos de dados ao todo (TMDB de series e TMDB de filmes;  e os arquivos disponobilizados pelo desafio nas sprint passadas de filmes e series). Como o processo é o mesmo, os códigos são parecidos, tendo apenas algumas alterações.
+
 
 ### Arquivos Refined - Modelagem:
 1. [Arquivo Movies ](../Desafio/refined/movies_multi.py)
@@ -243,10 +245,10 @@
 
 ### Como são muitas tabelas e Views, selecionei as principais para deixar como evidência, pois o processo de criação foi seguindo a mesma lógica. 
 
-## Tabelas - criadas no Glue: 
+## Tabelas: 
 ##  Tabelas Movies 
 
-### Fato
+### Tabela Fato
 
 ![1](../evidencias/athena/tabelas/movies/fato/7.png)
 ![1](../evidencias/athena/tabelas/movies/fato/8.png)
@@ -269,7 +271,7 @@
 
 ##  Tabelas Series
 
-### Fato
+### Tabela Fato
 
 ![1](../evidencias/athena/tabelas/series/fato/1.png)
 ![1](../evidencias/athena/tabelas/series/fato/2.png)
@@ -292,7 +294,7 @@
 
 ##  Tabelas TMDB Movies 
 
-### Fato
+### Tabela Fato
 
 ![1](../evidencias/athena/tabelas/tmdb_movies/fato/1.png)
 ![1](../evidencias/athena/tabelas/tmdb_movies/fato/2.png)
@@ -305,7 +307,7 @@
 
 ##  Tabelas TMDB Series
 
-### Fato
+### Tabela Fato
 
 ![1](../evidencias/athena/tabelas/tmdb_series/fato/1.png)
 ![1](../evidencias/athena/tabelas/tmdb_series/fato/2.png)
@@ -353,3 +355,6 @@
 
 ![1](../evidencias/athena/views/tmdbseries/0.png)
 ![1](../evidencias/athena/views/tmdbseries/1.png)
+
+
+# FIM. 
