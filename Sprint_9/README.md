@@ -51,8 +51,14 @@
 ### Essa função lê dados de um arquivo Parquet, processa os dados para criar uma tabela de fatos e várias tabelas de dimensões, verifica se os dados são válidos e, em seguida, escreve essas tabelas em novos arquivos Parquet, tratando qualquer exceção que possa ocorrer no processo.
 
 ![1](evidencias/glue/cod_movies/3.png)
+
+
 ![1](evidencias/glue/cod_movies/4.png)
+
+
 ![1](evidencias/glue/cod_movies/5.png)
+
+
 ![1](evidencias/glue/cod_movies/6.png)
 
   
