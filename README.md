@@ -16,7 +16,7 @@
 3. [Sprint 3](Sprint_3/README.md) -  Linguagem Python e serviçoes AWS: Python 3 e AWS Partner: Economias na nuvem AWS.
 4. [Sprint 4](Sprint_4/README.md) - Programação funcional, containers e serviçoes AWS: Programação funcional, Docker e AWS Skill Builder: Certificação técnica.
 5. [Sprint 5](Sprint_5/README.md) - Fundamentos de Computação em Nuvem: AWS Cloud Quest e Preparação para o exame AWS Certified Cloud Practitioner
-6. [Sprint 6](Sprint_6/README.md) - Soluções de dados na nuvem: Fundamentals of Analytics on AWS, Serverless Analytics, Introduction to Amazon Athena, AWS Glue Getting Started.
+6. [Sprint 6](Sprint_6/README.md) - Soluções de dados na nuvem: Fundamentals of Analytics on AWS, Serverless Analytics, Introduction to Amazon Athena, AWS Glue Getting Started, Amazon EMR Getting Started, Best Practices for Data Warehousing with Amazon Redshift e Amazon QuickSight Getting Started.
 7. [Sprint 7](Sprint_7/README.md) - Apache Spark: Formação Spark com Pyspark.
 8. [Sprint 8](Sprint_8/README.md) - Apache Spark e Serviços AWS
 9. [Sprint 9](Sprint_9/README.md) - Estruturas de Armazenamento de Dados.
