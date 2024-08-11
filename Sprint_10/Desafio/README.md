@@ -4,65 +4,69 @@
 
 ## Breve Resumo:
 
-### O desafio todo começou a ser desenvolvido na Sprint 6 até a Sprint 10, em 5 etapas, tendo como base um arquivo CSV e da API TMDB em formato JSON criando os Bancos de Dados de Séries e Filmes do gênero Ação e Aventura. 
-### Parte 1:
-### Foi feita uma análise de banco de dados para extrair informações sobre séries e filmes. O objetivo é responder a questões definidas que nos permitam extrair informações relevantes. 
-### Nessa etapa defini as perguntas a qual seriam feitas as análises. Foram modificadas algumas das perguntas para que se encaixasse melhor na análise final na ferramenta da AWS QuickSight.
-### As perguntas atualizadas são as seguintes: 
-### Séries:
-### 1.	Quais artistas mais atuaram em séries?
-### 2.	Qual a quantidade de Séries por ano nos últimos 10 anos?
-### 3.	Quais séries com melhores notas por quantidade de votos?
-### 4.	Qual a quantidade de votos e média por linguagem/idioma?
-### Filmes: 
-### 1.	Quais as notas e votos dos filmes lançados em 2024?
-### 2.	Qual a quantidade de filmes lançados nos últimos 10 anos?
-### 3.	Qual top 5 de votos de popularidade de filme?
-### 4.	Quais as notas, votos e popularidade dos filmes lançados em 2024?
-### Posteriormente, fiz um script python que lê os arquivos CSV, acessa a AWS, cria Bucket e faz upload dos arquivos no bucket. Também utilizei o programa Docker para construir um contêiner que executa um script Python.
+#### O desafio todo começou a ser desenvolvido na Sprint 6 até a Sprint 10, em 5 etapas, tendo como base um arquivo CSV e da API TMDB em formato JSON criando os Bancos de Dados de Séries e Filmes do gênero Ação e Aventura. 
 
-### Parte 2: 
-### Criei uma conta no site TMDB e criei uma API.
-### Fiz um script python, que interage com a API do TMDB para obter dados sobre filmes e séries e armazena esses dados no Amazon S3 em lotes de 100 registros em formato JSON. Os dados são organizados por data e divididos em lotes, que são então carregados no S3.  Também foi usado o serviço da AWS Lambda e Amazon Event Bridge que faz o agendando extrações periódicas de dados de forma automática. Posteriormente foram adicionados mais dados do TMDB.
-### Parte 3:
-### Usei o serviço AWS Glue Studio para criar e gerenciar tarefas de ETL, dos jobs "moviesAndSeries"  e "jsonTMDB", que lê dados de um arquivo, filtra registros com gêneros Action e Adventure e salva os dados filtrados no formato Parquet. Também foi usado o serviço da AWS Athena para consulta dos dados gerados. 
-### Parte 4: 
-### O desafio foi resolvido usando o serviço AWS Glue para ler o arquivo parquet, modificá-lo e salva-lo na refined zone. Onde os dados foram lidos de um arquivo Parquet, processado para criar uma tabela de fatos e várias tabelas de dimensões, escrevendo essas tabelas em novos arquivos Parquet.
-### Posteriormente, usando  crawler  para pegar os dados salvos no refined zone que estavam no formato parquet e criar um banco de dados no serviço AWS Athena, onde criei views e também tabelas. 
+## Parte 1:
+#### Foi feita uma análise de banco de dados para extrair informações sobre séries e filmes. O objetivo é responder a questões definidas que nos permitam extrair informações relevantes. 
+#### Nessa etapa defini as perguntas a qual seriam feitas as análises. Foram modificadas algumas das perguntas para que se encaixasse melhor na análise final na ferramenta da AWS QuickSight.
+
+#### As perguntas atualizadas são as seguintes: 
+#### Séries:
+#### 1.	Quais artistas mais atuaram em séries?
+#### 2.	Qual a quantidade de Séries por ano nos últimos 10 anos?
+#### 3.	Quais séries com melhores notas por quantidade de votos?
+#### 4.	Qual a quantidade de votos e média por linguagem/idioma?
+#### Filmes: 
+#### 1.	Quais as notas e votos dos filmes lançados em 2024?
+#### 2.	Qual a quantidade de filmes lançados nos últimos 10 anos?
+#### 3.	Qual top 5 de votos de popularidade de filme?
+#### 4.	Quais as notas, votos e popularidade dos filmes lançados em 2024?
+#### Posteriormente, fiz um script python que lê os arquivos CSV, acessa a AWS, cria Bucket e faz upload dos arquivos no bucket. Também utilizei o programa Docker para construir um contêiner que executa um script Python.
+
+## Parte 2: 
+#### Criei uma conta no site TMDB e criei uma API.
+#### Fiz um script python, que interage com a API do TMDB para obter dados sobre filmes e séries e armazena esses dados no Amazon S3 em lotes de 100 registros em formato JSON. Os dados são organizados por data e divididos em lotes, que são então carregados no S3.  Também foi usado o serviço da AWS Lambda e Amazon Event Bridge que faz o agendando extrações periódicas de dados de forma automática. Posteriormente foram adicionados mais dados do TMDB.
+
+## Parte 3:
+#### Usei o serviço AWS Glue Studio para criar e gerenciar tarefas de ETL, dos jobs "moviesAndSeries"  e "jsonTMDB", que lê dados de um arquivo, filtra registros com gêneros Action e Adventure e salva os dados filtrados no formato Parquet. Também foi usado o serviço da AWS Athena para consulta dos dados gerados. 
+
+## Parte 4: 
+#### O desafio foi resolvido usando o serviço AWS Glue para ler o arquivo parquet, modificá-lo e salva-lo na refined zone. Onde os dados foram lidos de um arquivo Parquet, processado para criar uma tabela de fatos e várias tabelas de dimensões, escrevendo essas tabelas em novos arquivos Parquet.
+#### Posteriormente, usando  crawler  para pegar os dados salvos no refined zone que estavam no formato parquet e criar um banco de dados no serviço AWS Athena, onde criei views e também tabelas. 
 
 # Parte 5 - Resolução do Desafio da Sprint 10: 
 
 ## Introdução: 
 
-### Após a ingestão, armazenamento e processamento dos dados em um data lake, criei um dashboard no AWS QuickSight, usando o Athena como fonte de dados. Dessa forma, foi criado uma visualização de dados para apresentar uma narrativa eficaz dos dados.
+#### Após a ingestão, armazenamento e processamento dos dados em um data lake, criei um dashboard no AWS QuickSight, usando o Athena como fonte de dados. Dessa forma, foi criado uma visualização de dados para apresentar uma narrativa eficaz dos dados.
 
 ## QuickSight
 
 ### Criação do Dashoboard: 
 
-### 1. Cliquei no menu em:  Analyses > New analysis > New dataset > Athena
+## 1. Cliquei no menu em:  Analyses > New analysis > New dataset > Athena
 ![1](../evidencias/dashboard/1.png)
 
-### 2. Escolhe o nome e depois clica em "Create data source"
+## 2. Escolhe o nome e depois clica em "Create data source"
 ![1](../evidencias/dashboard/2.png)
 
-### 3. Seleciona o Catalog e o Database onde estão salvos a base de dados  e a tabela que deseja usar OU clica em "Use custom SQL". Optei por usar a segunda opção, pois já fazia um select especificamente do que eu iria usar nos gráficos do Dashboad, usando  dados do Athena. 
+## 3. Seleciona o Catalog e o Database onde estão salvos a base de dados  e a tabela que deseja usar OU clica em "Use custom SQL". Optei por usar a segunda opção, pois já fazia um select especificamente do que eu iria usar nos gráficos do Dashboad, usando  dados do Athena. 
 ![1](../evidencias/dashboard/3.png)
 
-### 4. Usando a opção "Use custom SQL", faz o select especifico na query, cria um nome e clica em "Confirm query". Dessa forma a tabela abre no QuickSight.
+## 4. Usando a opção "Use custom SQL", faz o select especifico na query, cria um nome e clica em "Confirm query". Dessa forma a tabela abre no QuickSight.
 ![1](../evidencias/dashboard/4.png)
 
-### 5. Criando as querys dos gráficos de séries: 
+## 5. Criando as querys dos gráficos de séries: 
 ### Artistas que mais atuaram em séries:
 ![1](../evidencias/sql/series/1.png)
-### Quantidade de séries lançadas nos últimos 10 anos:
+#### Quantidade de séries lançadas nos últimos 10 anos:
 ![1](../evidencias/sql/series/3.png)
-### Séries com melhores notas por quantidade de votos:
+#### Séries com melhores notas por quantidade de votos:
 ![1](../evidencias/sql/series/5.png)
-### Quantidade votos e média de nota por idioma da série 
+#### Quantidade votos e média de nota por idioma da série 
 ![1](../evidencias/sql/series/7.png)
 
-### 5. Criando as querys dos gráficos de filmes: 
+## 6. Criando as querys dos gráficos de filmes: 
 ### Notas e votos dos filmes lançados em 2024
 ![1](../evidencias/sql/filmes/1.png)
 ### Quantidade de filmes lançados nos últimos 10 anos
@@ -72,7 +76,7 @@
 ### Notas, votos e popularidade dos lançamentos de 2024
 ![1](../evidencias/sql/filmes/7.png)
 
-### 6. Dashboard - Editando e Criando a visualização
+## 7. Dashboard - Editando e Criando a visualização
 
 
 ### Séries Ação/Aventura
@@ -133,7 +137,7 @@
 
 ![1](../evidencias/graficos/filmes/4.png)
 
-### 7. Personalizando: 
+## 8. Personalizando: 
 
 ### Para editar, colocar logotipo e mudar a cor:
 ![1](../evidencias/personalizar/1.png)
