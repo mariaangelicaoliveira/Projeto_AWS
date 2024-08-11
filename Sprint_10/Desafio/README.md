@@ -6,7 +6,7 @@
 
 #### O desafio todo começou a ser desenvolvido na Sprint 6 até a Sprint 10, em 5 etapas, tendo como base um arquivo CSV e da API TMDB em formato JSON criando os Bancos de Dados de Séries e Filmes do gênero Ação e Aventura. 
 
-## Parte 1:
+## Etapa 1:
 #### Foi feita uma análise de banco de dados para extrair informações sobre séries e filmes. O objetivo é responder a questões definidas que nos permitam extrair informações relevantes. 
 #### Nessa etapa defini as perguntas a qual seriam feitas as análises. Foram modificadas algumas das perguntas para que se encaixasse melhor na análise final na ferramenta da AWS QuickSight.
 
@@ -23,18 +23,18 @@
 #### 4.	Quais as notas, votos e popularidade dos filmes lançados em 2024?
 #### Posteriormente, fiz um script python que lê os arquivos CSV, acessa a AWS, cria Bucket e faz upload dos arquivos no bucket. Também utilizei o programa Docker para construir um contêiner que executa um script Python.
 
-## Parte 2: 
+## Etapa 2: 
 #### Criei uma conta no site TMDB e criei uma API.
 #### Fiz um script python, que interage com a API do TMDB para obter dados sobre filmes e séries e armazena esses dados no Amazon S3 em lotes de 100 registros em formato JSON. Os dados são organizados por data e divididos em lotes, que são então carregados no S3.  Também foi usado o serviço da AWS Lambda e Amazon Event Bridge que faz o agendando extrações periódicas de dados de forma automática. Posteriormente foram adicionados mais dados do TMDB.
 
-## Parte 3:
+## Etapa 3:
 #### Usei o serviço AWS Glue Studio para criar e gerenciar tarefas de ETL, dos jobs "moviesAndSeries"  e "jsonTMDB", que lê dados de um arquivo, filtra registros com gêneros Action e Adventure e salva os dados filtrados no formato Parquet. Também foi usado o serviço da AWS Athena para consulta dos dados gerados. 
 
-## Parte 4: 
+## Etapa 4: 
 #### O desafio foi resolvido usando o serviço AWS Glue para ler o arquivo parquet, modificá-lo e salva-lo na refined zone. Onde os dados foram lidos de um arquivo Parquet, processado para criar uma tabela de fatos e várias tabelas de dimensões, escrevendo essas tabelas em novos arquivos Parquet.
 #### Posteriormente, usando  crawler  para pegar os dados salvos no refined zone que estavam no formato parquet e criar um banco de dados no serviço AWS Athena, onde criei views e também tabelas. 
 
-# Parte 5 - Resolução do Desafio da Sprint 10: 
+# Etapa 5 - Resolução do Desafio da Sprint 10: 
 
 ## Introdução: 
 
