@@ -115,23 +115,32 @@
 ### Visão Geral:
 ![1](../evidencias/graficos/2.png)
 
-### 1. Artistas que mais atuaram em séries:
+### 1.  Notas e Votos dos filmes lançados em 2024:
 ![1](../evidencias/sql/filmes/2.png)
 
 ### O gráfico mostra a distribuição de votos e a média de notas dos filmes lançados em 2024. As barras laranjas representam a quantidade de votos, enquanto a linha verde representa a nota média. O filme "Godzilla K.K." lidera em termos de votos, com mais de 3 mil, seguido por "Furiosa: A.M." e "Kingdom of the Planet of the Apes", ambos com cerca de 2,5 mil votos. Apesar disso, a nota média desses filmes fica entre 6 e 8, com algumas exceções que atingem quase 10. Observa-se uma queda acentuada na quantidade de votos à medida que se avança na lista de filmes, com os últimos filmes recebendo menos de 500 votos. Além disso, os filmes com menos votos tendem a ter notas variáveis, algumas muito baixas, como "Transformers" e "Venom", que registram notas próximas a zero. Isso sugere que, embora alguns filmes sejam muito populares em termos de participação do público, suas avaliações variam bastante, com alguns recebendo críticas severas.
 ![1](../evidencias/graficos/filmes/1.png)
-### 2. Quantidade de séries lançadas nos últimos 10 anos:
+
+### 2. Quantidade de filmes lançadas nos últimos 10 anos:
 ![1](../evidencias/sql/filmes/4.png)
+
 ### O gráfico mostra a quantidade de filmes lançados entre 2014 e 2024. No início do período, em 2014, foram lançados cerca de 10 filmes, mas esse número caiu para aproximadamente 5 em 2015, e permaneceu relativamente estável nos anos seguintes, com pequenas flutuações. A partir de 2020, há uma queda acentuada, atingindo o ponto mais baixo com menos de 5 filmes lançados. Entretanto, a partir de 2021, observa-se uma recuperação significativa, culminando em um pico de lançamentos em 2022, com cerca de 18 filmes. Em 2023, houve uma leve queda, mas ainda se mantiveram números elevados em comparação aos anos anteriores. Em 2024, o número de lançamentos diminui um pouco, mas continua acima da média dos primeiros anos analisados. Esse padrão sugere uma retomada na produção de filmes após um período de baixa, com um crescimento notável nos últimos anos.
 
 
 ![1](../evidencias/graficos/filmes/2.png)
-### 3. Séries com melhores notas por quantidade de votos:
+
+### 3. Top 5 maiores popularidades de filmes:
+
 ![1](../evidencias/sql/filmes/6.png)
+
 ### O gráfico de rosca exibe as cinco maiores popularidades de filmes, mostrando o total acumulado de 23,45 mil. O filme "Kingdom of the Planet of the Apes" lidera com 1,65 mil, representando 7% da popularidade total. Seguem "Furiosa: A Mad Max Saga" com 1,46 mil (6%), "Deadpool" com 1,23 mil (5%), "3 Days in Malay" com 0,93 mil (4%), e "Deadpool 2" com 0,89 mil (4%). A categoria "Other" agrupa os filmes restantes, somando 17,29 mil, o que representa a maior parte, com 74% da popularidade total. Este gráfico sugere que, apesar de alguns filmes específicos se destacarem, a maior parte da popularidade está distribuída entre vários outros títulos não especificados individualmente.
+
 ![1](../evidencias/graficos/filmes/3.png)
-### 4. Quantidade votos e média de nota por idioma da série 
+
+### 4.  Notas, votos e popularidade dos filmes lançados em 2024
+
 ![1](../evidencias/sql/filmes/8.png)
+
 ### O gráfico de bolhas mostra a relação entre notas, votos e popularidade dos filmes lançados em 2024. Cada bolha representa um filme, onde o eixo horizontal indica o número de votos, o eixo vertical mostra a nota média, e o tamanho da bolha representa a popularidade do filme. Filmes como "Furiosa: A Mad Max Saga" e "Godzilla x Kong" aparecem com grandes bolhas, indicando alta popularidade e um número significativo de votos. Estes filmes também possuem notas acima de 6, mas não atingem o máximo de 8. Outros filmes, como "Kingdom of the Planet of the Apes," têm notas próximas de 8, com um bom número de votos e uma bolha de tamanho médio, indicando popularidade moderada. Há filmes que, apesar de terem notas mais baixas, ainda possuem um número considerável de votos, como "Biônicos" e "Borderlands." Por outro lado, algumas bolhas menores e mais próximas da origem representam filmes com menor popularidade, votos e notas. Em resumo, o gráfico destaca uma correlação entre popularidade, votos e notas, mas também mostra que filmes altamente votados nem sempre têm as melhores notas, sugerindo uma diversidade de opiniões entre os espectadores.
 
 

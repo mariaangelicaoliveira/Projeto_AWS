@@ -113,14 +113,14 @@
 ## Visão Geral:
 ![1](evidencias/graficos/2.png)
 
-## 1. Artistas que mais atuaram em séries:
+## 1.  Notas e Votos dos filmes lançados em 2024:
 ![1](evidencias/sql/filmes/2.png)
 
 #### O gráfico mostra a distribuição de votos e a média de notas dos filmes lançados em 2024. As barras laranjas representam a quantidade de votos, enquanto a linha verde representa a nota média. O filme "Godzilla K.K." lidera em termos de votos, com mais de 3 mil, seguido por "Furiosa: A.M." e "Kingdom of the Planet of the Apes", ambos com cerca de 2,5 mil votos. Apesar disso, a nota média desses filmes fica entre 6 e 8, com algumas exceções que atingem quase 10. Observa-se uma queda acentuada na quantidade de votos à medida que se avança na lista de filmes, com os últimos filmes recebendo menos de 500 votos. Além disso, os filmes com menos votos tendem a ter notas variáveis, algumas muito baixas, como "Transformers" e "Venom", que registram notas próximas a zero. Isso sugere que, embora alguns filmes sejam muito populares em termos de participação do público, suas avaliações variam bastante, com alguns recebendo críticas severas.
 
 ![1](evidencias/graficos/filmes/1.png)
 
-## 2. Quantidade de séries lançadas nos últimos 10 anos:
+### 2. Quantidade de filmes lançadas nos últimos 10 anos:
 
 ![1](evidencias/sql/filmes/4.png)
 
@@ -129,7 +129,7 @@
 
 ![1](evidencias/graficos/filmes/2.png)
 
-## 3. Séries com melhores notas por quantidade de votos:
+## 3. Top 5 maiores popularidades de filmes:
 
 ![1](evidencias/sql/filmes/6.png)
 
@@ -137,7 +137,7 @@
 
 ![1](evidencias/graficos/filmes/3.png)
 
-## 4. Quantidade votos e média de nota por idioma da série 
+### 4.  Notas, votos e popularidade dos filmes lançados em 2024 
 
 ![1](evidencias/sql/filmes/8.png)
 
