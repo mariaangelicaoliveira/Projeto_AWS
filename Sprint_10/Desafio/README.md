@@ -36,6 +36,10 @@
 
 # Etapa 5 - Resolução do Desafio da Sprint 10: 
 
+
+## Arquivo:  
+[Dashboard em PDF](Desafio/Dashboard.pdf)
+
 ## Introdução: 
 
 #### Após a ingestão, armazenamento e processamento dos dados em um data lake, criei um dashboard no AWS QuickSight, usando o Athena como fonte de dados. Dessa forma, foi criado uma visualização de dados para apresentar uma narrativa eficaz dos dados.
@@ -159,6 +163,13 @@
 
 ### Para selecionar o tipo de gráfico:  
 ![1](../evidencias/personalizar/4.png)
+
+
+# Sobre o Programa de Bolsas:
+
+## Como eu imagino que os conhecimentos obtidos no decorrer do Programa de Bolsas podem gerar valor para os clientes da Compass:
+
+### Imagino que os conhecimentos adquiridos ao longo do Programa de Bolsas capacitam para projetar e implementar soluções de dados escaláveis, seguras e eficientes na nuvem, utilizando serviços avançados da AWS. Com habilidades que vão desde análise de dados com Python e SQL até a construção de Data Lakes e visualização de dados com Amazon QuickSight, é possível transformar dados complexos em insights acionáveis, otimizar processos e reduzir custos operacionais. Isso permite entregar soluções inovadoras e de alto impacto, alinhadas às necessidades e objetivos dos clientes, gerando valor sustentável e melhorando a tomada de decisões estratégicas.
 
 
 # FIM.
