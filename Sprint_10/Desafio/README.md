@@ -38,7 +38,7 @@
 
 
 ## Arquivo:  
-[Dashboard em PDF](Desafio/Dashboard.pdf)
+[Dashboard em PDF](../Desafio/Dashboard.pdf)
 
 ## Introdução: 
 
