@@ -1,13 +1,4 @@
 
-<img src="https://avatars.githubusercontent.com/u/142120467?v=4" width="150">
-
-[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/)](https://github.com/mariaangelicaoliveira)
-[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/mariaangelicaoliveira/)](https://www.linkedin.com/in/mariaangelicaoliveira/)
-
-# Apresentação
-#### Meu nome é Maria Angélica Crispim de Oliveira, sou estudante do curso de Ciência de Dados na Faculdade de Tecnologia de Ourinhos/SP (FATEC). Atualmente, faço estágio na empresa Compass UOL, sendo essa minha primeira experiência profissional na área de tecnologia, tendo como objetvo me tornar Analista de Dados. Meus hobbies são: ler livros, ir ao cinema, assistir séries, academia, ouvir música e viajar.
-
-
 # Desafios: 
 #### Baseado em uma trilha de aprendizagem com tecnologias e metodologias aplicadas em projetos de dados usando serviços de nuvem da AWS. Composta por 10 Sprints.
 
@@ -24,10 +15,5 @@
 
 
 # Resumo:
-#### O curso é uma abrangente preparação para atuar no campo de Data & Analytics, utilizando tecnologias e serviços da AWS. A jornada cobriu desde fundamentos básicos, como controle de versão com Git e operações em sistemas Linux, até habilidades avançadas em análise de dados com Python, SQL e Apache Spark. A trilha também incluiu treinamento em segurança da informação, metodologias ágeis, e práticas de computação em nuvem, preparando para certificações reconhecidas no mercado. A última etapa focou na construção de Data Lakes e na visualização de dados, capacitando a transformar dados complexos em informações acionáveis. Essa formação prepara para enfrentar desafios reais, implementar soluções de dados eficientes e contribuir significativamente para projetos na área de dados.
+#### O projeto é uma abrangente preparação para atuar no campo de Data & Analytics, utilizando tecnologias e serviços da AWS. A jornada cobriu desde fundamentos básicos, como controle de versão com Git e operações em sistemas Linux, até habilidades avançadas em análise de dados com Python, SQL e Apache Spark. A trilha também incluiu treinamento em segurança da informação, metodologias ágeis, e práticas de computação em nuvem, preparando para certificações reconhecidas no mercado. A última etapa focou na construção de Data Lakes e na visualização de dados, capacitando a transformar dados complexos em informações acionáveis. Essa formação prepara para enfrentar desafios reais, implementar soluções de dados eficientes e contribuir significativamente para projetos na área de dados.
 
-# Sobre o Programa de Bolsas:
-
-### Como eu imagino que os conhecimentos obtidos no decorrer do Programa de Bolsas podem gerar valor para os clientes da Compass:
-
-#### Imagino que os conhecimentos adquiridos ao longo do Programa de Bolsas capacitam para projetar e implementar soluções de dados escaláveis, seguras e eficientes na nuvem, utilizando serviços avançados da AWS. Com habilidades que vão desde análise de dados com Python e SQL até a construção de Data Lakes e visualização de dados com Amazon QuickSight, é possível transformar dados complexos em insights acionáveis, otimizar processos e reduzir custos operacionais. Isso permite entregar soluções inovadoras e de alto impacto, alinhadas às necessidades e objetivos dos clientes, gerando valor sustentável e melhorando a tomada de decisões estratégicas.
